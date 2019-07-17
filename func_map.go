@@ -4,8 +4,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/qor/admin"
-	"github.com/qor/roles"
+	"github.com/kisrobot/admin"
+	"github.com/kisrobot/roles"
 )
 
 type GroupedWidgets struct {

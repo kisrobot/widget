@@ -4,9 +4,9 @@ import (
 	"html/template"
 	"net/http"
 
-	"github.com/qor/admin"
-	"github.com/qor/responder"
-	"github.com/qor/serializable_meta"
+	"github.com/kisrobot/admin"
+	"github.com/kisrobot/responder"
+	"github.com/kisrobot/serializable_meta"
 )
 
 type widgetController struct {

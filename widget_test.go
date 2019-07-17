@@ -11,10 +11,10 @@ import (
 
 	"github.com/fatih/color"
 	"github.com/jinzhu/gorm"
-	"github.com/qor/admin"
-	"github.com/qor/qor"
-	"github.com/qor/qor/test/utils"
-	"github.com/qor/widget"
+	"github.com/kisrobot/admin"
+	"github.com/kisrobot/qor"
+	"github.com/kisrobot/qor/test/utils"
+	"github.com/kisrobot/widget"
 )
 
 var db *gorm.DB
@@ -43,7 +43,7 @@ func TestRender(t *testing.T) {
 	Widgets = widget.New(&widget.Config{
 		DB: db,
 	})
-	Widgets.RegisterViewPath("github.com/qor/widget/test")
+	Widgets.RegisterViewPath("github.com/kisrobot/widget/test")
 
 	Admin = admin.New(&qor.Config{DB: db})
 	Admin.AddResource(Widgets)

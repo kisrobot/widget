@@ -6,11 +6,11 @@ import (
 	"path/filepath"
 
 	"github.com/jinzhu/gorm"
-	"github.com/qor/admin"
-	"github.com/qor/assetfs"
-	"github.com/qor/qor/resource"
-	"github.com/qor/qor/utils"
-	"github.com/qor/roles"
+	"github.com/kisrobot/admin"
+	"github.com/kisrobot/assetfs"
+	"github.com/kisrobot/qor/resource"
+	"github.com/kisrobot/qor/utils"
+	"github.com/kisrobot/roles"
 )
 
 var (
@@ -74,7 +74,7 @@ func (widgets *Widgets) RegisterFuncMap(name string, fc interface{}) {
 func (widgets *Widgets) ConfigureQorResourceBeforeInitialize(res resource.Resourcer) {
 	if res, ok := res.(*admin.Resource); ok {
 		// register view paths
-		res.GetAdmin().RegisterViewPath("github.com/qor/widget/views")
+		res.GetAdmin().RegisterViewPath("github.com/kisrobot/widget/views")
 
 		// set resources
 		widgets.Resource = res

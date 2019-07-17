@@ -6,7 +6,7 @@ import (
 	"html/template"
 	"path/filepath"
 
-	"github.com/qor/qor/utils"
+	"github.com/kisrobot/qor/utils"
 )
 
 // Render find widget by name, render it based on current context

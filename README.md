@@ -1,6 +1,6 @@
 # Widget
 
-Widget are defined, customizable, shareable HTML *widgets* that can be used within [QOR Admin](https://github.com/qor/admin) or your own frontend.
+Widget are defined, customizable, shareable HTML *widgets* that can be used within [QOR Admin](https://github.com/kisrobot/admin) or your own frontend.
 
 ## Getting Started
 
